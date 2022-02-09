@@ -7,6 +7,9 @@
     "start": "ts-node ./src/index.ts",
     "build": "tsc"
   },
+  "bin": {
+    "convert": "./cmd.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
